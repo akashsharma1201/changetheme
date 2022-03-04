@@ -1,0 +1,32 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+}
+.bgboard{
+    width: 700px;
+    height: 400px;
+    border-radius: 15px;
+    background-color: red;
+}
+.button{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button button{
+    width: 150px;
+    height: 70px;
+    background-color: rgb(101, 189, 230);
+    border-radius: 5px;
+    font-family:sans-serif;
+    font-size: large;
+    margin-top: 100px;
+}
